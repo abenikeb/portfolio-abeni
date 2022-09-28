@@ -102,6 +102,18 @@ export const Learning = [
 export const projects: IProject[] = [
   // Dapp
   {
+    name: "SMS-Client",
+    description:
+      "A decentralised application is an application that can operate autonomously, typically through the use of smart contracts, that runs on a decentralized computing, blockchain system. ",
+    image_path: "/images/dapp.gif",
+    deployed_url: "http://metaverse-challenge-gray-one.vercel.app/",
+    github_url: "https://github.com/natnael-OQP/metaverse-challenge",
+    category: ["NextJs"],
+    key_techs: ["NextJs", "moralis.io"],
+  },
+
+  // Dapp
+  {
     name: "Dapp",
     description:
       "A decentralised application is an application that can operate autonomously, typically through the use of smart contracts, that runs on a decentralized computing, blockchain system. ",
