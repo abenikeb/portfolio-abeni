@@ -100,14 +100,26 @@ export const Learning = [
 // ---------------------------------------------------------------- Project -------------------------------------------------------
 
 export const projects: IProject[] = [
-  // Dapp
+  // sms-client
   {
     name: "SMS-Client",
     description:
-      "A decentralised application is an application that can operate autonomously, typically through the use of smart contracts, that runs on a decentralized computing, blockchain system. ",
+      "This powerful sales management system provides a complete solution for managing your sales enterprise. It includes CRM, order processing, forecasting and much more.",
     image_path: "/images/dapp.gif",
-    deployed_url: "http://metaverse-challenge-gray-one.vercel.app/",
-    github_url: "https://github.com/natnael-OQP/metaverse-challenge",
+    deployed_url: "https://sms-client-mvp.vercel.app/",
+    github_url: "https://github.com/abenikeb/sms-client",
+    category: ["NextJs"],
+    key_techs: ["NextJs", "moralis.io"],
+  },
+
+  // greeencheddar
+  {
+    name: "GreenCheddar",
+    description:
+      "It is a platform founded in UK, London that calculates an individual's or a household's carbon footprint and rewards users appropriately. Users will be able to sell and/or buy carbon credits on the platform marketplace.",
+    image_path: "/images/greencheddar.gif",
+    deployed_url: "http://greencheddar.org",
+    github_url: "",
     category: ["NextJs"],
     key_techs: ["NextJs", "moralis.io"],
   },
@@ -119,7 +131,8 @@ export const projects: IProject[] = [
       "A decentralised application is an application that can operate autonomously, typically through the use of smart contracts, that runs on a decentralized computing, blockchain system. ",
     image_path: "/images/dapp.gif",
     deployed_url: "http://metaverse-challenge-gray-one.vercel.app/",
-    github_url: "https://github.com/natnael-OQP/metaverse-challenge",
+    github_url: "",
+    // github_url: "https://github.com/natnael-OQP/metaverse-challenge",
     category: ["NextJs"],
     key_techs: ["NextJs", "moralis.io"],
   },
@@ -130,7 +143,7 @@ export const projects: IProject[] = [
       "Medium is a place to write,read and connect It's ease and free to post your thinking on any topic and connect with million of reader ",
     image_path: "/images/erq-maed.gif",
     deployed_url: "https://erqmaed.vercel.app/",
-    github_url: "https://github.com/natnael-OQP/erq-maed",
+    github_url: "https://github.com/abenikeb/erq-maed",
     category: ["NextJs"],
     key_techs: ["NextJs", "sanity.io"],
   },
@@ -141,7 +154,7 @@ export const projects: IProject[] = [
       "Medium is a place to write,read and connect It's ease and free to post your thinking on any topic and connect with million of reader ",
     image_path: "/images/medium.gif",
     deployed_url: "https://medium-clone-eta.vercel.app/",
-    github_url: "https://github.com/natnael-OQP/medium-clone",
+    github_url: "https://github.com/abenikeb/medium-clone",
     category: ["NextJs"],
     key_techs: ["NextJs", "sanity.io"],
   },
@@ -152,7 +165,7 @@ export const projects: IProject[] = [
       "This app show products user can add items to the cart and user can remove items from the cart Realtime Reviews Chat auth and you can log in with your Google account(authentication), items detail page, and much more ",
     image_path: "/images/e-suke.png",
     deployed_url: "https://e-suke.netlify.app/",
-    github_url: "https://github.com/natnael-OQP/ecommerce-2.0",
+    github_url: "https://github.com/abenikeb/ecommerce-2.0",
     category: ["react"],
     key_techs: ["React", "reduxjs/toolkit", "Firebase"],
   },
@@ -161,7 +174,7 @@ export const projects: IProject[] = [
     name: "ኢትዮ-Real-Estate",
     image_path: "/images/real-estate.png",
     deployed_url: "https://ema-real-estate-group.vercel.app/",
-    github_url: "https://github.com/natnael-OQP/real-estate-site",
+    github_url: "https://github.com/abenikeb/real-estate-site",
     category: ["Nextjs", "react"],
     description:
       "ኢትዮ-Real-Estate is an amazing Real Estate Application. With rental homes and for-sale properties, advanced property filtering, property details page , and much more, ",
@@ -172,7 +185,7 @@ export const projects: IProject[] = [
     name: "Airbnb Clone",
     image_path: "/images/aribnb-clone.png",
     deployed_url: "https://ema-group-airbnb-clone.vercel.app/",
-    github_url: "https://github.com/natnael-OQP/Airbnb-clone",
+    github_url: "https://github.com/abenikeb/Airbnb-clone",
     category: ["Nextjs", "react"],
     description:
       "a simple airbnb clone build with Nextjs(ssg and ssr), tailwindcss, Mapbox, axios ",
@@ -183,7 +196,7 @@ export const projects: IProject[] = [
     name: "Piper chat",
     image_path: "/images/piper-caht.png",
     deployed_url: "http://piper-chat.vercel.app/",
-    github_url: "https://github.com/natnael-OQP/piper-chat",
+    github_url: "https://github.com/abenikeb/piper-chat",
     category: ["NextJs", "react"],
     description:
       " Typical Social Media App where one can post,like ,comment,delate your posts, Populated with authentication, etc...",
@@ -194,7 +207,7 @@ export const projects: IProject[] = [
     name: "Netflix Clone",
     image_path: "/images/netflix-clone.png",
     deployed_url: "https://netflix-clone-with-nathan.netlify.app/",
-    github_url: "https://github.com/natnael-OQP/netflix-clone",
+    github_url: "https://github.com/abenikeb/netflix-clone",
     category: ["", "react"],
     description:
       "a simple netflix clone ypu can watch trailers  build with reactjs,firebase,redux",
@@ -204,7 +217,7 @@ export const projects: IProject[] = [
   {
     name: "Gmail Clone",
     deployed_url: "https://gmail-clone-with-nathan.netlify.app/",
-    github_url: "https://github.com/natnael-OQP/gmail-clone",
+    github_url: "https://github.com/abenikeb/gmail-clone",
     category: ["react"],
     description:
       " Typical Social Media App where one can post,like ,comment etc",
@@ -214,7 +227,7 @@ export const projects: IProject[] = [
   {
     name: "Ethio chat",
     deployed_url: "https://etio-chat.netlify.app/",
-    github_url: "https://github.com/natnael-OQP/classroom",
+    github_url: "https://github.com/abenikeb/classroom",
     category: ["react"],
     description:
       "Basic Realtime Chat App where one can create a room can talk to each other ",
@@ -224,7 +237,7 @@ export const projects: IProject[] = [
   {
     name: "NGO site",
     deployed_url: "https://etio.netlify.app/",
-    github_url: "https://github.com/natnael-OQP/NGO",
+    github_url: "https://github.com/abenikeb/NGO",
     category: ["react"],
     description: "One of the first projects on ReactJS",
     key_techs: ["ReactJS", "react-router", "react-scroll"],
