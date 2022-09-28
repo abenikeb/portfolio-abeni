@@ -18,7 +18,7 @@ const Sidebar = () => {
         <Image
           objectFit="cover"
           layout="fill"
-          src="https://github.com/abenikeb/abenikeb/blob/main/edited.jpg"
+          src="https://imageup.me/7qh"
           alt="user avatar"
         />
       </div>
