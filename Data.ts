@@ -105,7 +105,7 @@ export const projects: IProject[] = [
     name: "SMS-Client",
     description:
       "This powerful sales management system provides a complete solution for managing your sales enterprise. It includes CRM, order processing, forecasting and much more.",
-    image_path: "/images/dapp.gif",
+    image_path: "/images/SMS-edit.jpg",
     deployed_url: "https://sms-client-mvp.vercel.app/",
     github_url: "https://github.com/abenikeb/sms-client",
     category: ["NextJs"],
@@ -125,17 +125,17 @@ export const projects: IProject[] = [
   },
 
   // Dapp
-  {
-    name: "Dapp",
-    description:
-      "A decentralised application is an application that can operate autonomously, typically through the use of smart contracts, that runs on a decentralized computing, blockchain system. ",
-    image_path: "/images/dapp.gif",
-    deployed_url: "http://metaverse-challenge-gray-one.vercel.app/",
-    github_url: "",
-    // github_url: "https://github.com/natnael-OQP/metaverse-challenge",
-    category: ["NextJs"],
-    key_techs: ["NextJs", "moralis.io"],
-  },
+  // {
+  //   name: "Dapp",
+  //   description:
+  //     "A decentralised application is an application that can operate autonomously, typically through the use of smart contracts, that runs on a decentralized computing, blockchain system. ",
+  //   image_path: "/images/dapp.gif",
+  //   deployed_url: "http://metaverse-challenge-gray-one.vercel.app/",
+  //   github_url: "",
+  //   // github_url: "https://github.com/natnael-OQP/metaverse-challenge",
+  //   category: ["NextJs"],
+  //   key_techs: ["NextJs", "moralis.io"],
+  // },
   // Eer-Maed
   {
     name: "Erq-Maed",
@@ -181,16 +181,16 @@ export const projects: IProject[] = [
     key_techs: ["Nextjs", "chakra-ui", "axios"],
   },
   // airbnb clone -3
-  {
-    name: "Airbnb Clone",
-    image_path: "/images/aribnb-clone.png",
-    deployed_url: "https://ema-group-airbnb-clone.vercel.app/",
-    github_url: "https://github.com/abenikeb/Airbnb-clone",
-    category: ["Nextjs", "react"],
-    description:
-      "a simple airbnb clone build with Nextjs(ssg and ssr), tailwindcss, Mapbox, axios ",
-    key_techs: ["Nextjs", "tailwindcss", "Mapbox"],
-  },
+  // {
+  //   name: "Airbnb Clone",
+  //   image_path: "/images/aribnb-clone.png",
+  //   deployed_url: "https://ema-group-airbnb-clone.vercel.app/",
+  //   github_url: "https://github.com/abenikeb/Airbnb-clone",
+  //   category: ["Nextjs", "react"],
+  //   description:
+  //     "a simple airbnb clone build with Nextjs(ssg and ssr), tailwindcss, Mapbox, axios ",
+  //   key_techs: ["Nextjs", "tailwindcss", "Mapbox"],
+  // },
   // Piper chat -4
   {
     name: "Piper chat",
@@ -206,8 +206,8 @@ export const projects: IProject[] = [
   {
     name: "Netflix Clone",
     image_path: "/images/netflix-clone.png",
-    deployed_url: "https://netflix-clone-with-nathan.netlify.app/",
-    github_url: "https://github.com/abenikeb/netflix-clone",
+    deployed_url: "https://netflix-clone-ajvh.vercel.app/",
+    github_url: "https://github.com/abenikeb/NetflixClone",
     category: ["", "react"],
     description:
       "a simple netflix clone ypu can watch trailers  build with reactjs,firebase,redux",

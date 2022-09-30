@@ -47,7 +47,7 @@ const Resume = () => {
           {languages.map(({ Icon, name, level }) => (
             <div
               key={name}
-              className="fx select-none   duration-300  py-1 hover:font-semibold"
+              className="fx select-none duration-300 py-1 hover:font-semibold"
             >
               <Icon className="h-3 text-color1 " />
               <h1 className="text-sm font-mono text-color2 font-medium ">
@@ -58,9 +58,9 @@ const Resume = () => {
         </motion.div>
         <a
           href="/images/AbenezerKebede_Resume.pdf"
-          className="btn btn-secondary px-4 py-2 btn-sm"
+          className="btn btn-primary px-4 py-2 btn-sm text-white mt-3"
         >
-          Download CV
+          Download Resume
         </a>
       </div>
     </motion.div>
