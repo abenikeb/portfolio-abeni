@@ -1,5 +1,7 @@
 import { languages } from "../Data";
 import Head from "next/head";
+import Link from "next/link";
+import { ChevronDoubleRightIcon } from "@heroicons/react/solid";
 import { motion } from "framer-motion";
 import { SpringFadeUp, FadeUpLeft } from "../motion";
 
@@ -56,12 +58,19 @@ const Resume = () => {
             </div>
           ))}
         </motion.div>
-        <a
+        <Link scroll={false} passHref href="/images/AbenezerKebede_Resume.pdf">
+          <button className="px-5 py-[14px] mt-4 text-[14px] border rounded-md border-color1 text-color1 hover:bg-color1 hover:bg-opacity-10 fx font-normal font-popi">
+            Download CV
+            <ChevronDoubleRightIcon className="h-5 ml-2" />
+          </button>
+        </Link>
+
+        {/* <a
           href="/images/AbenezerKebede_Resume.pdf"
           className="btn btn-primary px-4 py-2 btn-sm text-white mt-3"
         >
           Download Resume
-        </a>
+        </a> */}
       </div>
     </motion.div>
   );

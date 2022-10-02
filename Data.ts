@@ -103,8 +103,7 @@ export const projects: IProject[] = [
   // sms-client
   {
     name: "SMS-Client",
-    description:
-      "This powerful sales management system provides a complete solution for managing your sales enterprise. It includes CRM, order processing, forecasting and much more.",
+    description: `This powerful sales management system provides a complete solution for managing your sales enterprise. It includes CRM, order processing, forecasting and much more. (You can log into account with #Password '1uj@21f6fwB' & Tel no '0913228892')`,
     image_path: "/images/SMS-edit.jpg",
     deployed_url: "https://sms-client-mvp.vercel.app/",
     github_url: "https://github.com/abenikeb/sms-client",
@@ -125,6 +124,18 @@ export const projects: IProject[] = [
   },
 
   // Dapp
+  {
+    name: "Moralis Clone",
+    description:
+      "A decentralised application is an application that can operate autonomously, typically through the use of smart contracts, that runs on a decentralized computing, blockchain system. ",
+    image_path: "/images/dapp.gif",
+    deployed_url: "http://metaverse-challenge-gray-one.vercel.app/",
+    github_url: "",
+    // github_url: "https://github.com/natnael-OQP/metaverse-challenge",
+    category: ["ReactJs"],
+    key_techs: ["ReactJs", "moralis.io"],
+  },
+
   // {
   //   name: "Dapp",
   //   description:
@@ -137,6 +148,18 @@ export const projects: IProject[] = [
   //   key_techs: ["NextJs", "moralis.io"],
   // },
   // Eer-Maed
+
+  {
+    name: "E-Suke",
+    description:
+      "This app show products user can add items to the cart and user can remove items from the cart Realtime Reviews Chat auth and you can log in with your Google account(authentication), items detail page, and much more ",
+    image_path: "/images/e-suke.png",
+    deployed_url: "https://e-suke.netlify.app/",
+    github_url: "https://github.com/abenikeb/ecommerce-2.0",
+    category: ["react"],
+    key_techs: ["React", "reduxjs/toolkit", "Firebase"],
+  },
+
   {
     name: "Erq-Maed",
     description:
@@ -159,16 +182,7 @@ export const projects: IProject[] = [
     key_techs: ["NextJs", "sanity.io"],
   },
   // E-commerces -1
-  {
-    name: "E-Suke",
-    description:
-      "This app show products user can add items to the cart and user can remove items from the cart Realtime Reviews Chat auth and you can log in with your Google account(authentication), items detail page, and much more ",
-    image_path: "/images/e-suke.png",
-    deployed_url: "https://e-suke.netlify.app/",
-    github_url: "https://github.com/abenikeb/ecommerce-2.0",
-    category: ["react"],
-    key_techs: ["React", "reduxjs/toolkit", "Firebase"],
-  },
+
   // ኢትዮ-Real-Estate -2
   {
     name: "ኢትዮ-Real-Estate",

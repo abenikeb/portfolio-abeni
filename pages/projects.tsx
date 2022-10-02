@@ -16,7 +16,7 @@ const Projects = ({ projects }) => {
       <div>
         {/* title */}
         <div className="mt-6">
-          <h1 className="text-color3 text-xl  sm:text-2xl flex items-center font-popi font-semibold font-popi space-x-4 tracking-wider">
+          <h1 className="text-color3 text-xl  sm:text-2xl flex items-center font-semibold font-popi space-x-4 tracking-wider">
             <span className="text-xl pt-1 text-color1  font-mono font-extralight mr-1 ">
               02.
             </span>{" "}
