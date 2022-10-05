@@ -31,7 +31,7 @@ const Resume = () => {
       </h1>
       <div className="md:pl-5 pt-6 md:pt-8 ">
         <h2 className="text-2xl font-semibold font-popi text-color2">
-          Education
+          Summary
         </h2>
         <h3 className="text-base font-popi font-medium py-2 w-full md:w-[73%] text-color2">
           {" "}

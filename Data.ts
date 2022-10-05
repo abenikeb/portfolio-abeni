@@ -123,6 +123,17 @@ export const projects: IProject[] = [
     key_techs: ["NextJs", "moralis.io"],
   },
 
+  {
+    name: "E-Suke",
+    description:
+      "This app show products user can add items to the cart and user can remove items from the cart Realtime Reviews Chat auth and you can log in with your Google account(authentication), items detail page, and much more ",
+    image_path: "/images/e-suke.png",
+    deployed_url: "https://e-suke.netlify.app/",
+    github_url: "https://github.com/abenikeb/ecommerce-2.0",
+    category: ["react"],
+    key_techs: ["React", "reduxjs/toolkit", "Firebase"],
+  },
+
   // Dapp
   {
     name: "Moralis Clone",
@@ -148,17 +159,6 @@ export const projects: IProject[] = [
   //   key_techs: ["NextJs", "moralis.io"],
   // },
   // Eer-Maed
-
-  {
-    name: "E-Suke",
-    description:
-      "This app show products user can add items to the cart and user can remove items from the cart Realtime Reviews Chat auth and you can log in with your Google account(authentication), items detail page, and much more ",
-    image_path: "/images/e-suke.png",
-    deployed_url: "https://e-suke.netlify.app/",
-    github_url: "https://github.com/abenikeb/ecommerce-2.0",
-    category: ["react"],
-    key_techs: ["React", "reduxjs/toolkit", "Firebase"],
-  },
 
   {
     name: "Erq-Maed",
@@ -228,15 +228,15 @@ export const projects: IProject[] = [
     key_techs: ["ReactJS", "reduxjs/toolkit", "Firebase"],
   },
   // Gmail clone -6
-  {
-    name: "Gmail Clone",
-    deployed_url: "https://gmail-clone-with-nathan.netlify.app/",
-    github_url: "https://github.com/abenikeb/gmail-clone",
-    category: ["react"],
-    description:
-      " Typical Social Media App where one can post,like ,comment etc",
-    key_techs: ["ReactJS", "firebase", "Redux"],
-  },
+  // {
+  //   name: "Gmail Clone",
+  //   deployed_url: "https://gmail-clone-with-nathan.netlify.app/",
+  //   github_url: "https://github.com/abenikeb/gmail-clone",
+  //   category: ["react"],
+  //   description:
+  //     " Typical Social Media App where one can post,like ,comment etc",
+  //   key_techs: ["ReactJS", "firebase", "Redux"],
+  // },
   // Ethio chat -7
   {
     name: "Ethio chat",

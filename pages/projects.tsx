@@ -9,7 +9,10 @@ const Projects = ({ projects }) => {
       {/* Header  */}
       <Head>
         <title>Projects</title>
-        <meta name="description" content="natnael portfolio project showcase" />
+        <meta
+          name="description"
+          content="Abnenezer portfolio project showcase"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* Some Things I’ve Built */}
