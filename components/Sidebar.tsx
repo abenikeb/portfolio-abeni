@@ -27,11 +27,11 @@ const Sidebar = () => {
       </h3>
       {/* Reactjs developer  */}
       <h4 className="py-[3px] mt-1 md:mt-2 mb-4 text-sm text-[#ccd6f6]    font-semibold bg-[#112240]  fc  rounded-full duration-500 hover:animate-bounce ">
-        Reactjs/nextjs developer
+        Reactjs/nextjs/nodejs developer
       </h4>
       {/* Telegram  */}
       <a
-        href="https://t.me/ebenizer"
+        href="https://t.me/ebeniZr"
         target="_blank"
         className="py-2 text-color3 fc gap-[8px] an hover:animate-pulse "
         rel="noreferrer"
@@ -75,7 +75,7 @@ const Sidebar = () => {
           className="justify-end flex gap-x-3 items-center min-w-[70%]"
         >
           <MailIcon className="h-5 text-color2" />
-          <span className="sideh5">abenikeb795@gmail.com</span>
+          <span className="sideh5">abenikeb79@gmail.com</span>
         </button>
       </div>
     </motion.div>
